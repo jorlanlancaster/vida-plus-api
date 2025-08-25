@@ -3,6 +3,7 @@ PROJETO – DESENVOLVIMENTO BACK-END
 Sistema de Gestão de Saúde Simplificado (VidaPlus API)
 
 Aluno: Jorlan Lancaster da Silva Braga — RU: 4140346
+
 Curso: Análise e Desenvolvimento de Sistemas — Polo: Salvador/Iguatemi
 Professor: Winston Sen Lun Fung, Me.
 Data: 25/08/2025
