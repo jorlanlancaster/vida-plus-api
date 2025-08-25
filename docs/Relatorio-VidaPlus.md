@@ -5,7 +5,9 @@ Sistema de Gestão de Saúde Simplificado (VidaPlus API)
 Aluno: Jorlan Lancaster da Silva Braga — RU: 4140346
 
 Curso: Análise e Desenvolvimento de Sistemas — Polo: Salvador/Iguatemi
+
 Professor: Winston Sen Lun Fung, Me.
+
 Data: 25/08/2025
 
 1. Introdução
@@ -89,14 +91,12 @@ Migrações: Flyway (baseline + seed opcional)
 5. Modelagem de Dados
 5.1 DER
 
-(ver docs/DER.md)
 
 📸 Print DER renderizado:
 ![DER](./imgs/der.png)
 
 5.2 Diagrama de Classes
 
-(ver docs/UML.md)
 
 📸 Print UML:
 ![UML](./imgs/uml.png)
@@ -161,7 +161,7 @@ Profissionais: CRUD (somente ADMIN) — 403 com token de PROFISSIONAL
 
 Agendamentos: criar (201), conflito (409), cancelar (204), listar (200)
 
-📸 Print dos testes (colocar aqui):
+📸 Print dos testes:
 ![Postman 1](./imgs/postman1.png)
 ![Postman 2](./imgs/postman2.png)
 
