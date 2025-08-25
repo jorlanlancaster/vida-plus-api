@@ -1,11 +1,11 @@
-PROJETO MULTIDISCIPLINAR – DESENVOLVIMENTO BACK-END
+PROJETO – DESENVOLVIMENTO BACK-END
 
 Sistema de Gestão de Saúde Simplificado (VidaPlus API)
 
 Aluno: Jorlan Lancaster da Silva Braga — RU: 4140346
 Curso: Análise e Desenvolvimento de Sistemas — Polo: Salvador/Iguatemi
 Professor: Winston Sen Lun Fung, Me.
-Data: 29/08/2025
+Data: 25/08/2025
 
 1. Introdução
 
@@ -82,7 +82,7 @@ Documentação: springdoc-openapi UI (Swagger)
 
 Migrações: Flyway (baseline + seed opcional)
 
-📸 Screenshot Swagger:
+📸 Print Swagger:
 ![Swagger](./imgs/swagger.png)
 
 5. Modelagem de Dados
@@ -90,14 +90,14 @@ Migrações: Flyway (baseline + seed opcional)
 
 (ver docs/DER.md)
 
-📸 Screenshot DER renderizado:
+📸 Print DER renderizado:
 ![DER](./imgs/der.png)
 
 5.2 Diagrama de Classes
 
 (ver docs/UML.md)
 
-📸 Screenshot UML (colocar aqui):
+📸 Print UML:
 ![UML](./imgs/uml.png)
 
 6. Implementação
@@ -143,7 +143,7 @@ Registra POST/PUT/DELETE e /auth/login com: método, rota, status, usuário, IP,
 
 Consulta: GET /auditoria?size=10&sort=dataHora,desc
 
-📸 Screenshot auditoria (colocar aqui):
+📸 Print auditoria:
 ![Auditoria](./imgs/auditoria.png)
 
 9. Plano de Testes (Postman)
@@ -160,7 +160,7 @@ Profissionais: CRUD (somente ADMIN) — 403 com token de PROFISSIONAL
 
 Agendamentos: criar (201), conflito (409), cancelar (204), listar (200)
 
-📸 Screenshots dos testes (colocar aqui):
+📸 Print dos testes (colocar aqui):
 ![Postman 1](./imgs/postman1.png)
 ![Postman 2](./imgs/postman2.png)
 
