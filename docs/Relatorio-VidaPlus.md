@@ -196,3 +196,5 @@ Documentação PostgreSQL
 Springdoc OpenAPI
 
 JJWT
+
+Embora o sistema contemple os principais requisitos do estudo de caso (cadastro de pacientes, gestão de profissionais, agendamento, autenticação e auditoria), alguns pontos foram considerados como trabalhos futuros, como: prontuários médicos, telemedicina (videochamadas), administração hospitalar (leitos, relatórios financeiros) e maior conformidade com LGPD. Esses itens extrapolam o escopo do trabalho atual, mas podem ser integrados em versões futuras.
