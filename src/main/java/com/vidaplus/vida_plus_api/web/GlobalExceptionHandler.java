@@ -28,4 +28,16 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, Object>> handleNotFound(NotFoundException ex) {
         return ResponseEntity.status(404).body(Map.of("erro", ex.getMessage()));
     }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+public ResponseEntity<Map<String, Object>> handleIllegalArg(IllegalArgumentException ex) {
+    return ResponseEntity.badRequest().body(Map.of("erro", ex.getMessage()));
+}
+
+@ExceptionHandler(org.springframework.security.access.AccessDeniedException.class)
+public ResponseEntity<Map<String, Object>> handleDenied(Exception ex) {
+    return ResponseEntity.status(403).body(Map.of("erro", "Acesso negado"));
+}
+
+
 }
