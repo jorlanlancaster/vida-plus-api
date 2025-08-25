@@ -1,3 +1,12 @@
+
+---
+
+# 🗂️ 2) DER — `docs/DER.md`
+
+```markdown
+# DER — VidaPlus
+
+```mermaid
 erDiagram
   PACIENTE {
     bigint id PK

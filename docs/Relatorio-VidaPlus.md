@@ -82,7 +82,7 @@ Documentação: springdoc-openapi UI (Swagger)
 
 Migrações: Flyway (baseline + seed opcional)
 
-📸 Screenshot Swagger (colocar aqui):
+📸 Screenshot Swagger:
 ![Swagger](./imgs/swagger.png)
 
 5. Modelagem de Dados
@@ -90,7 +90,7 @@ Migrações: Flyway (baseline + seed opcional)
 
 (ver docs/DER.md)
 
-📸 Screenshot DER renderizado (colocar aqui):
+📸 Screenshot DER renderizado:
 ![DER](./imgs/der.png)
 
 5.2 Diagrama de Classes
